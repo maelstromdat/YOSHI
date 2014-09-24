@@ -1,0 +1,21 @@
+FORMAL NETWORK;;;;;
+;avgMilestonePeriod;>;0.02;;ok
+;hierarchDegree;>;0.8;;ok
+;;;;;
+INFORMAL NETWORK;;;;;
+;avgCollabProjects;<;1;;[NONE]
+;inPercentageContributorCompanies;<;0.05;;Ok-ish
+;avgMilestonePeriod;<;0.02;;ok
+;;;;;
+NETWORK OF PRACTICE;;;;;
+;avgDistance;>;4000;;ok
+;avgCulturalDistance;>;0.15;;Ok-ish
+;selfSimilarity;>;0.9;;ok
+;activeMembers;>;10;;Not-ok
+;;;;;
+INFORMAL COMMUNITY;;;;;
+;uniqueCommenterExists;equals;TRUE;;
+;highEngagement;>;30;comments;Not-ok
+;avgDistance;>;4000;;ok
+;avgCulturalDistance;>;0.15;;
+;selfSimilarity;>;0.9;;ok

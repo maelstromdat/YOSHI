@@ -1,0 +1,23 @@
+Formal Network
+
+MEMBERSHIP
+Based on what we observed in our sample, the hier-
+archy degree is high when the number of permission
+groups exceeds 2, or an average of 80% of the users of
+the same organization are concentrated within a single
+group. Appendix B includes a link to the values of the
+metrics we gathered and computed to determine these
+levels. 
+
+FORMALITY
+In particular, ProjectLibre, which is quite recent, has 0.03 
+milestones per day, meaning that, on average, a new milestone 
+is created every 33 days. Based on collected results, we can 
+state that an organization has a high level of governance if,
+on average, at least 0.02 new milestones are created every day.
+
+
+Before continuing you need to understand the difference between a contributor and a collaborator.
+
+Contributor: A contributor is someone from the outside not on the core development team of the project that wants to contribute some changes to a project.
+Collaborator: A collaborator is someone on the core development team of the project and has commit access to the main repository of the project.
