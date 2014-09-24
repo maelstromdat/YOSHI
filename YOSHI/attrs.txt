@@ -1,0 +1,60 @@
+[1]
+/* Some of these are added from the presentation */
+
+
+[1] Quality: Community cohesiveness	
+	1. Formal Nerworks : 1.1 Membership: countNonTeamCommits, countTeamCommits
+	2. Informal community : 2.1 Engagement : average per-month comments / number of active members
+	3. Informal network: 3.2 Openness : contributors - collaborators
+	3. Informal network: 3.1 Informality : collaboration: following/followers
+	3. Informal network: 3.2 Openness : pull requests comments
+	4. Network of practice : 4.2 Similarity : 	languages used in repositories to which they contribute
+		
+	3. Informal network: 3.1 Informality : community members of the same organization represents no more than X of the involved developers	
+	
+
+
+	
+[3] Quality: Resilience against fluctuations of community members, how closely community members interact, associativity, measures preference to connect to other community members
+	* worked together on files : files changed / which users   ------------------- [[avgUserCollaborationFiles]]
+	* are following/followers for each other   ----------------------- [[avgCCFollowers]]
+	MembersGraph : Clustering coefficient  ----------------------- [[avgClusteringCoefficient]]
+	
+
+[2.1] Quality: Distribution of responsibilities (• measures how responsibilities, collaboration and communication are distributed across community members)
+[2.2] Quality: Team characteristics for realizing benefits
+	• path length to other node in the network(Closeness centrality)  ------------------------------------ [[closenessCentrality]]
+	- number of users that have blogs   ----------------------------------- [[avgBloggers]]
+	* 4.6 Average of committers longevity  ---------------------------------------- [[avgCommiterLonvigity]]
+	2. Informal community : 2.1 Engagement : subscriptions within the project (watchers) --------------[[avgSubscriptions]]
+	
+	- team distribution, size, maturity -- NO
+	2. Informal community : 2.1 Engagement : numbers of members that are unique commenters -- NO
+		
+	
+[6 - OK] Quality: Task allocation
+	- phase-based allocation : commits/milestones [?] - NO
+	- points of weakned: issues/milestones [?] - NO
+	- commits / user  ---------------  [[avgUserCommits]]
+	- files changed / which users   -------------- [[avgFileContributors]]
+	4. Network of practice : 4.3 Size : size:active members:those whose total contribution is at least equal to 50%   [[activeMembers - Not sure that I need it]]
+	
+	
+[7 - OK] Quality: Project characteristics  ---> Let's start with this
+	- project having a description [Wiki] 	   -----------  [[hasWiki]]
+	* 4.9 Evolution in number of events			----------------- [[monthlyEventsStdDev]]
+	[CH]* 4.10 Evolution in number of commits --> reopned : reopened : The issue was reopened by the actor.   ---------- [[ReopenedIssuesPercentage]]
+	1. Formal Nerworks : 1.2 Formality : calculating the number of milestones assigned to the project   ----------- [[milestonesPerDay]]
+	
+	
+-------------------------------------------------------------------------------	
+	
+[4] Quality: Localization/timeline
+	- geographical/temporal distance [+when they commited]
+	4. Network of practice : 4.1 Dispersion : members location + distance between them (km)
+		
+Uncathegorized [?]
+- number of issues
+
+
+

@@ -1,0 +1,7 @@
+**/build
+**/nbproject/private
+**/dist
+.DS_Store
+dist/**
+build/**
+nbproject/private/**

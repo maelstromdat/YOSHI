@@ -1,0 +1,522 @@
+I'm attempting to compute on repos.csv; data shall be saved in YOSHI_data.csv
+I'm attempting to gather communities data
+Hello! I'm YOSHI! I was born to study organizational and social structures behind software communities...
+My GitHub Client Authorization token is: 4e8c429a9ac38957f6d061bdb1ed4ba1e595209b
+
+
+
+During my run I will explain what characteristics I'm computing for the repositories that you provided...
+
+attempting to compute collaboratingContributors
+Done.
+SignalR/SignalR
+attempting to compute avgMilestonePeriod
+Done.
+attempting to compute hierarchDegree
+attempting to reach GitHub Repository
+attempting to compute contributors
+Done.
+attempting to compute collaborators
+Done.
+Done.
+attempting to compute avgCollabProjects
+pinging GitHub repo...
+Done.
+computing collaboratorProjects
+Done.
+Done.
+attempting to compute inPercentageContributorCompanies
+attempting to compute collaboratorCompanies
+Done.
+Done.
+Whoops! There is something wrong with YOSHI's geocoding component!
+Whoops! There is something wrong with YOSHI's geocoding component!
+Whoops! There is something wrong with YOSHI's geocoding component!
+Whoops! There is something wrong with YOSHI's geocoding component!
+47.610377 -122.2006786
+47.6062095 -122.3320708
+47.6739881 -122.121512
+47.6814875 -122.2087353
+47.6739881 -122.121512
+39.0060727 -111.8618705
+39.0060727 -111.8618705
+47.610377 -122.2006786
+52.2296756 21.0122287
+31.046051 34.851612
+47.6062095 -122.3320708
+59.3774523 17.0321193
+47.6739881 -122.121512
+50.62925 3.057256
+59.1313095 10.2165948
+48.1351253 11.5819806
+47.516231 14.550072
+53.9822586 59.1022515
+-33.873651 151.2068896
+40.7127837 -74.0059413
+46.227638 2.213749
+52.132633 5.291266
+52.486243 -1.890401
+60.128161 18.643501
+52.132633 5.291266
+44.983334 -93.26667
+39.952335 -75.163789
+52.132633 5.291266
+52.3758916 9.7320104
+-38.1485437 144.3613479
+60.128161 18.643501
+55.7046601 13.1910073
+55.7046601 13.1910073
+48.583148 7.747882
+39.768403 -86.158068
+42.9377453 -74.190356
+-36.8484597 174.7633315
+[D@c292cb2
+attempting to compute avgDistance
+Done.
+attempting to compute standardDevDistance
+Done.
+attempting to compute avgCulturalDistance
+Done.
+attempting to compute selfSimilarity
+Done.
+attempting to compute activeMembers
+Done.
+attempting to compute uniqueCommenters
+Done.
+attempting to compute highEngagement
+Done.
+Hello! I'm YOSHI! I was born to study organizational and social structures behind software communities...
+My GitHub Client Authorization token is: 4e8c429a9ac38957f6d061bdb1ed4ba1e595209b
+
+
+
+During my run I will explain what characteristics I'm computing for the repositories that you provided...
+
+attempting to compute collaboratingContributors
+Done.
+6/111 5
+7/111 34
+8/111 56
+9/111 57
+10/111 114
+11/111 98
+0/112 197
+1/112 193
+2/112 358
+3/112 359
+4/112 341
+5/112 333
+6/112 309
+7/112 228
+8/112 232
+9/112 477
+10/112 341
+11/112 473
+0/113 746
+1/113 483
+2/113 793
+3/113 726
+4/113 712
+5/113 722
+6/113 716
+7/113 528
+8/113 416
+9/113 544
+10/113 310
+11/113 410
+0/114 290
+1/114 404
+2/114 259
+3/114 853
+4/114 302
+5/114 626
+6/114 562
+7/114 393
+8/114 215
+74.33333333333333, 2.0416333066453163, 1
+0.6213151927437641, 0.01904296875
+116.2, 69.796875, 0.578125
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters
+org.eclipse.egit.github.core.client.NoSuchPageException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:175)
+	at thesis.snapshots.communities.structure.MembersGraph.commenters(MembersGraph.java:181)
+	at thesis.snapshots.communities.structure.MembersGraph.prepareGephiGraph(MembersGraph.java:67)
+	at thesis.snapshots.communities.structure.SocialStructure.prepareGephiGraph(SocialStructure.java:80)
+	at thesis.snapshots.communities.quality.Qualities.socialStructure(Qualities.java:134)
+	at thesis.snapshots.communities.quality.Qualities.getQualities(Qualities.java:54)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:114)
+	at thesis.snapshots.communities.data.Main.compute(Main.java:97)
+	at thesis.snapshots.communities.data.Main.main(Main.java:138)
+Caused by: org.eclipse.egit.github.core.client.RequestException: API rate limit exceeded for inselie. (403)
+	at org.eclipse.egit.github.core.client.GitHubClient.createException(GitHubClient.java:552)
+	at org.eclipse.egit.github.core.client.GitHubClient.get(GitHubClient.java:740)
+	at org.eclipse.egit.github.core.client.PageIterator.next(PageIterator.java:173)
+	... 8 more
+Catch exception in MembersGraph, commenters

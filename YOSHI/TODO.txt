@@ -1,0 +1,32 @@
+1.org.eclipse.egit.github.core.client.RequestException: Issues are disabled for this repo (410)
+has milestone if it has issues
+
+
+2. choose 4 repositories for each type of community + 1 random
+   they have the same number of edges, draw graphs for them
+   
+3. create a word graph using word frequency for different repos   
+   
+
+4. Set limits to pull requests and commits to 3500.
+
+5. In TaskAllocation decomment the part with fileChangedUsers and contributors.
+
+		
+/** INFORMAL NETWORK attributes */		
+	//  informality average no. of projects to which members collaborated : OK :  avgCollabProjects
+	//  informality max percent of members of the same organization : OK :  inPercentageContributorCompanies  openness.?
+	// number of milestones/period : REPEATED from FN :  lack Of Governance :  avgMilestonePeriod
+
+/** NETWORK OF PRACTICE attributes */		
+	// average distance : OK : avgDistance [[ INSERT PICTURE HERE]]
+	// standard deviation distance :  standardDevDistance
+	// cultural distance : Okish :  avgCulturalDistance
+	// self-similarity, percentage of members with the same skill : Okish :  selfSimilarity [[ INSERT PICTURE HERE]]
+	// number of active members : OK :  activeMembers
+
+/** INFORMAL COMMUNITY attributes */
+	// unique commenter if is responsible for 30% contributions : OK : uniqueCommenterExists
+	// engagement is high if, on avg, each member posts > 30 comments/month : Okish :  highEngagement  [[ INSERT PICTURE HERE]]
+	
+Based on the evidence from [1.3-Titans, [39-Titans], [36-Titans] the key-attribute for informal networks is represented by informality of communication between involved members (see Table 5). informality is expressed by the presence of social and informal interactions between developers. 	   
