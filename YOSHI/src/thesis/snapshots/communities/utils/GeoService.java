@@ -23,7 +23,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
-import sun.misc.GC.LatencyRequest;
+//import sun.misc.GC.LatencyRequest;
  
 public class GeoService 
 {

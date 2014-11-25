@@ -1,41 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/collections-generic-4.01.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/commons-codec-1.8.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/commons-collections-3.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/geoGoogle-1.5.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/gwt-charts-0.9.9.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/javax.servlet-api-3.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/jgeocoder-0.5-jar-with-dependencies.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/josm-latest.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/mallet.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/org.eclipse.egit.github.core-2.1.5.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/org.eclipse.egit.github.core.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/quickdt-0.0.8.6-jar-with-dependencies.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[ICSE-DEMOS] YOSHI/THESIS/jars/servlet-api-2.5.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/org-openide-util-lookup-8.3.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/gephi-toolkit-0.8.7-all/gephi-toolkit.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/collections-generic-4.01.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/colt-1.2.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/concurrent-1.3.4.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/j3d-core-1.3.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-3d-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-3d-demos-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-algorithms-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-api-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-graph-impl-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-io-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-jai-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-jai-samples-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-samples-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/jung-visualization-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/vecmath-1.3.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Bellerofonte/git/YOSHI/YOSHI/build/jung2-2_0_1/wstx-asl-3.2.6.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/ant.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-collections-3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/formsrt.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/foxtrot.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/geoGoogle-1.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/gephi-toolkit.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/gwt-charts-0.9.9.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jgeocoder-0.5-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jgoodies-common.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jgoodies-forms.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jgoodies-looks.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/josm-latest.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/launch4j.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/mallet.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/org-openide-util-lookup-8.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/org.eclipse.egit.github.core-2.1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/org.eclipse.egit.github.core.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/quickdt-0.0.8.6-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/wstx-asl-3.2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Bellerofonte/Dropbox/Research On-Ine/[OSS] YOSHI/THESIS/jars/xstream.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
