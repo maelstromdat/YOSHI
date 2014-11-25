@@ -129,7 +129,7 @@ public class Main
 	public static void main(String[] args) throws IOException
 	{
 		System.out.println("Hello! I'm YOSHI! I was born to study organizational and social structures behind software communities...");
-		System.out.println("My GitHub Client Authorization token is: 4e8c429a9ac38957f6d061bdb1ed4ba1e595209b");
+		System.out.println("My GitHub Client Authorization token is: e5:6d:a3:7b:e0:05:9d:4a:42:71:5f:af:a4:ac:62:51");
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");

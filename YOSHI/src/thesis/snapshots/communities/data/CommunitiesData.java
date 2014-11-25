@@ -29,8 +29,8 @@ public class CommunitiesData
 		//OAuthentication
 		client = new GitHubClient();
 		// ask somebody to generate a new token in the name of YOSHI
-
-		client.setOAuth2Token("4e8c429a9ac38957f6d061bdb1ed4ba1e595209b");
+		//e5:6d:a3:7b:e0:05:9d:4a:42:71:5f:af:a4:ac:62:51
+		client.setOAuth2Token("e56da37be0059d4a42715fafa4ac6251");
 		community = new Community(repoOwner, repoName, client);		
 		
 		if(community.hasURL() && community.hasMilestones())
