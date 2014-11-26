@@ -102,14 +102,6 @@ public class Main
 	public void compute(String repoName, String repoOwner) throws IOException
 	{
 		CommunitiesData commData = new CommunitiesData(repoOwner, repoName);
-		Community community = commData.getCommunity();
-		System.out.println("I'm checking if the community has data that I can use...");
-		boolean cons = community.hasURL() && community.hasMilestones();
-		System.out.println("Done... my assessment on this repo is: " + cons);
-		if(cons)
-			
-		{
-			System.out.println("I'm currently investigating on "+repoName+" / "+repoOwner);
 			//these lines selectively gather intelligence on the communities and then all results are wrapped in line within data, a text file
 			String dataCommunity = commData.communitiesData();			
 			
@@ -117,9 +109,9 @@ public class Main
 			String dataQuality = qualities.getQualities();
 			
 			String data = repoOwner+"/"+repoName+", "+dataCommunity+", "+dataQuality+"\n";
-			System.out.println(data);
+			//System.out.println(data);
 			writeData(data);
-		}
+		
 		System.out.println("I'm done investigating on "+repoName+" / "+repoOwner);
 	}
 	

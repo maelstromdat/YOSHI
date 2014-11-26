@@ -18,9 +18,8 @@ public class NetworkOfPractice
 	{
 		this.client = client;
 		this.community = community;
-		//TODO: commented out these functionalities, dispersion and similarity de-comment when ready
-		//dispersion = new NOPDispersion(community, client);
-		//similarity = new NOPSimilarity(community, client);
+		dispersion = new NOPDispersion(community, client);
+		similarity = new NOPSimilarity(community, client);
 		size = new NOPSize(community, client);
 	}
 }

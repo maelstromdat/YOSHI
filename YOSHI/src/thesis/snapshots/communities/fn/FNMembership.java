@@ -34,7 +34,7 @@ public class FNMembership
 	{
 		this.community = community;		
 		this.client = client;
-		computed = false;
+		//computed = false;
 	}
 	
 	/**

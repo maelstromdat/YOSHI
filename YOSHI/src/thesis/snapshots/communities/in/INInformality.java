@@ -49,12 +49,11 @@ public class INInformality
 
 		this.userService = new UserService(client);
 		this.repoService = new RepositoryService(client);
-		//TODO: commented out contributors for debug purposes
-		//repoMembers = getCollabContri();
 	}
 
 	public float inInformalityCommunication() throws IOException 
 	{		
+		repoMembers = getCollabContri();
 		float avgCollabProjects = 0.0f;
 		Map<String, List<String>> collaboratorProjects = new HashMap<String, List<String>>();
 		for(User user : repoMembers)

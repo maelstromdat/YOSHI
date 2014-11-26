@@ -18,8 +18,7 @@ public class FormalNetwork
 		this.client = client;
 		this.community = community;
 		formality = new FNFormality(community, client);
-		//TODO: commented out for debugging purposes, de-comment when ready
-		//membership = new FNMembership(community, client);
+		membership = new FNMembership(community, client);
 		wordFrequency = new FNWordFrequency(community, client);
 	}
 }

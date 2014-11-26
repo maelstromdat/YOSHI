@@ -35,7 +35,6 @@ public class GeoService
     public static void main(String[] args) throws Exception 
     {
     	GeoService tDirectionService = new GeoService();
-    	//TODO: the current location should be parametrized
         tDirectionService.getLongitudeLatitude("Amsterdam, The Netherlands");
     }
      
