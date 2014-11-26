@@ -17,8 +17,9 @@ public class InformalNetwork
 	{
 		this.client = client;
 		this.community = community;
-		informality = new INInformality(community, client);		
-		openness = new INOpenness(community, client);
+		informality = new INInformality(community, client);
+		//TODO: commented out this functionality for debugging purposes, de-comment when ready
+		//openness = new INOpenness(community, client);
 	}
 }
  

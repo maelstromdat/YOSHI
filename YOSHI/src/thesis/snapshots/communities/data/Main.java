@@ -95,7 +95,7 @@ public class Main
 	{
 		for(Pair<String, String> repo : repositories)
 		{
-			System.out.println("I'm attempting to gather communities data for" + repo.getFirst() + "and" + repo.getSecond());
+			System.out.println("I'm attempting to compute communities data for " + repo.getFirst() + " and " + repo.getSecond());
 			compute(repo.getFirst(), repo.getSecond());
 		}
 	}
@@ -103,10 +103,13 @@ public class Main
 	{
 		CommunitiesData commData = new CommunitiesData(repoOwner, repoName);
 		Community community = commData.getCommunity();
-		
-		if(community.hasURL() && community.hasMilestones())
+		System.out.println("I'm checking if the community has data that I can use...");
+		boolean cons = community.hasURL() && community.hasMilestones();
+		System.out.println("Done... my assessment on this repo is: " + cons);
+		if(cons)
+			
 		{
-			System.out.println("I'm currently investigating on "+repoName+"/"+repoOwner);
+			System.out.println("I'm currently investigating on "+repoName+" / "+repoOwner);
 			//these lines selectively gather intelligence on the communities and then all results are wrapped in line within data, a text file
 			String dataCommunity = commData.communitiesData();			
 			
@@ -117,7 +120,7 @@ public class Main
 			System.out.println(data);
 			writeData(data);
 		}
-		System.out.println("Done.");
+		System.out.println("I'm done investigating on "+repoName+" / "+repoOwner);
 	}
 	
 	private String[] spiltLine(String line)
@@ -129,7 +132,7 @@ public class Main
 	public static void main(String[] args) throws IOException
 	{
 		System.out.println("Hello! I'm YOSHI! I was born to study organizational and social structures behind software communities...");
-		System.out.println("My GitHub Client Authorization token is: e5:6d:a3:7b:e0:05:9d:4a:42:71:5f:af:a4:ac:62:51");
+		System.out.println("My GitHub Client Authorization token is: 71df10f4a580add22f3d62d9bcd08c2a3ac8fdf4");
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
@@ -141,7 +144,7 @@ public class Main
 		Main process = new Main("src/thesis/snapshots/communities/data/repos.csv", 
 				               "src/thesis/snapshots/communities/data/YOSHI_data.csv");
 		
-		System.out.println("I'm attempting to compute on repos.csv; data shall be saved in YOSHI_data.csv");
+		System.out.println("I'm attempting to compute on repos.csv and data shall be saved in YOSHI_data.csv");
 		process.readURLs();
 		process.compute();
 	}

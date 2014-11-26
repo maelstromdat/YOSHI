@@ -47,8 +47,9 @@ public class FNMembership
 	{
 		float hierarchyDegree = 0.0f;
 		Repository repository = community.getRepository();
-		System.out.println("attempting to reach GitHub Repository");
+		//System.out.println("attempting to reach GitHub Repository");
 		// repo contributors
+		System.out.println("attempting to compute contributors");
 		RepositoryService repoService = new RepositoryService(client);
 		CollaboratorService colabService = new CollaboratorService(client);
 
@@ -57,7 +58,6 @@ public class FNMembership
 		Set<String> repoCollaborators = new HashSet<String>();
 		Set<String> repoContributors = new HashSet<String>();
 		
-		System.out.println("attempting to compute contributors");
 		for(Contributor contributor : contributors)
 		{
 			if(contributor.getLogin() != null)

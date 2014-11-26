@@ -49,15 +49,14 @@ public class INInformality
 
 		this.userService = new UserService(client);
 		this.repoService = new RepositoryService(client);
-		
-		repoMembers = getCollabContri();
+		//TODO: commented out contributors for debug purposes
+		//repoMembers = getCollabContri();
 	}
 
 	public float inInformalityCommunication() throws IOException 
 	{		
 		float avgCollabProjects = 0.0f;
 		Map<String, List<String>> collaboratorProjects = new HashMap<String, List<String>>();
-		System.out.println("pinging GitHub repo...");
 		for(User user : repoMembers)
 		{
 				List<Repository> repositories = repoService.getRepositories(user.getLogin());
