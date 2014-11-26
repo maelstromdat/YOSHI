@@ -29,11 +29,16 @@ public class CommunitiesData
 		//OAuthentication
 		client = new GitHubClient();
 		// ask somebody to generate a new token in the name of YOSHI
+<<<<<<< HEAD
 		// 71df10f4a580add22f3d62d9bcd08c2a3ac8fdf4
 		client.setOAuth2Token("71df10f4a580add22f3d62d9bcd08c2a3ac8fdf4");
 		client.setCredentials("maelstromdat", "maelstrom83");
 		
 		//client.setUserAgent(agent);
+=======
+		//e5:6d:a3:7b:e0:05:9d:4a:42:71:5f:af:a4:ac:62:51
+		client.setOAuth2Token("e56da37be0059d4a42715fafa4ac6251");
+>>>>>>> parent of fd30163... changed the yoshi structure
 		community = new Community(repoOwner, repoName, client);		
 		
 		if(community.hasURL() && community.hasMilestones())
