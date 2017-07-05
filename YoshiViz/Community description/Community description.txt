@@ -1,0 +1,20 @@
+Situatedness - Cop
+
+Situatedness is the key attribute of communities of practice. Members share a common practice using a number of social relations and interactions.
+These interactions lead them to help each other foster, maintain, and improve their situated practice. 
+
+Informalality - IN
+
+In this type of communities members freely communicate through informal interactions (collocated or otherwise). They
+can exchange knowledge and artifacts without any protocol or restriction across any kind of distance.
+
+Formality - FN
+
+An official, formal member status is the key attribute of formal networks. Candidate members are carefully
+evaluated before receiving membership. This process ensures members compatibility with the network’s goals.
+
+Engagement - IC or NoP
+
+The need for active member engagement is the key attribute of informal communities. Members actively engage in a mission or goal for personal and societal benefit.
+These communities don’t have organizational sponsors pushing for their
+success; their success depends exclusively on their members’ active engagement in the community mission.
