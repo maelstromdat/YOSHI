@@ -1,0 +1,119 @@
+﻿country,pdi,idv,mas,uai,ltowvs,ivr,estimated
+Albania,90,20,80,70,61,15,1
+Algeria,80,35,35,70,26,32,1
+Angola,83,18,20,60,15,83,1
+Argentina,49,46,56,86,20,62,0
+Armenia,85,22,50,88,61,25,1
+Australia,38,90,61,51,21,71,0
+Austria,11,55,79,70,60,63,0
+Azerbaijan,85,22,50,88,61,22,1
+Bangladesh,80,20,55,60,47,20,0
+Belarus,95,25,20,95,81,15,1
+Belgium,65,75,54,94,82,57,0
+Bhutan,94,52,32,28,null,null,1
+Bolivia,78,10,42,87,25,46,1
+Bosnia and Herzegovina,90,22,48,87,70,44,1
+Brazil,69,38,49,76,44,59,0
+Bulgaria,70,30,40,85,69,16,0
+Burkina Faso,70,15,50,55,27,18,1
+Canada,39,80,52,48,36,68,0
+Cape Verde,75,20,15,40,12,83,1
+Chile,63,23,28,86,31,68,0
+China,80,20,66,30,87,24,0
+Colombia,67,13,64,80,13,83,0
+Costa Rica,35,15,21,86,null,null,0
+Croatia,73,33,40,80,58,33,0
+Czechia,57,58,57,74,70,29,0
+Denmark,18,74,16,23,35,70,0
+Dominican Republic,65,30,65,45,13,54,1
+Ecuador,78,8,63,67,null,null,0
+Egypt,70,25,45,80,7,4,1
+El Salvador,66,19,40,94,20,89,0
+Estonia,40,60,30,60,82,16,0
+Ethiopia,70,20,65,55,null,46,1
+Fiji,78,14,46,48,null,null,1
+Finland,33,63,26,59,38,57,0
+France,68,71,43,86,63,48,0
+Georgia,65,41,55,85,38,32,1
+Germany,35,67,66,65,83,40,0
+Ghana,80,15,40,65,4,72,1
+Greece,60,35,57,100,45,50,0
+Guatemala,95,6,37,98,null,null,0
+Honduras,80,20,40,50,null,null,1
+Hong Kong sar,68,25,57,29,61,17,0
+Hungary,46,80,88,82,58,31,1
+Iceland,30,60,10,50,28,67,1
+India,77,48,56,40,51,26,0
+Indonesia,78,14,46,48,62,38,0
+Iran,58,41,43,59,14,40,0
+Iraq,95,30,70,85,25,17,1
+Ireland,28,70,68,35,24,65,0
+Israel,13,54,47,81,38,null,0
+Italy,50,76,70,75,61,30,0
+Jamaica,45,39,68,13,null,null,0
+Japan,54,46,95,92,88,42,0
+Jordan,70,30,45,65,16,43,1
+Kazakhstan,88,20,50,88,85,22,1
+Kenya,70,25,60,50,null,null,1
+Kuwait,90,25,40,80,null,null,1
+Latvia,44,70,9,63,69,13,0
+Lebanon,75,40,65,50,14,25,1
+Libya,80,38,52,68,23,34,0
+Lithuania,42,60,19,65,82,16,0
+Luxembourg,40,60,50,70,64,56,0
+Malawi,70,30,40,50,null,null,1
+Malaysia,100,26,50,36,41,57,0
+Malta,56,59,47,96,47,66,0
+Mexico,81,30,69,82,24,97,0
+Moldova,90,27,39,95,71,19,1
+Montenegro,88,24,48,90,75,20,1
+Morocco,70,46,53,68,14,25,0
+Mozambique,85,15,38,44,11,80,1
+Namibia,65,30,40,45,35,null,1
+Nepal,65,30,40,40,null,null,1
+Netherlands,38,80,14,53,67,68,0
+New Zealand,22,79,58,49,33,75,0
+Nigeria,80,30,60,55,13,84,1
+North Macedonia,90,22,45,87,62,35,1
+Norway,31,69,8,50,35,55,0
+Pakistan,55,14,50,70,50,0,0
+Panama,95,11,44,86,null,null,0
+Paraguay,70,12,40,85,20,56,1
+Peru,64,16,42,87,25,46,0
+Philippines,94,32,64,44,27,42,0
+Poland,68,60,64,93,38,29,0
+Portugal,63,27,31,99,28,33,0
+Puerto Rico,68,27,56,38,0,90,1
+Qatar,93,25,55,80,null,null,1
+Romania,90,30,42,90,52,20,0
+Russia,93,39,36,95,81,20,0
+São Tomé and Princípe,75,37,24,70,32,41,1
+Saudi Arabia,95,25,60,80,36,52,1
+Senegal,70,25,45,55,25,null,1
+Serbia,86,25,43,92,52,28,0
+Sierra Leone,70,20,40,50,null,null,1
+Singapore,74,20,48,8,72,46,0
+Slovakia,100,52,100,51,77,28,0
+Slovenia,71,27,19,88,49,48,0
+South Africa,49,65,63,49,34,63,0
+South Korea,60,18,39,85,100,29,0
+Spain,57,51,42,86,48,44,0
+Sri Lanka,80,35,10,45,45,null,1
+Suriname,85,47,37,92,null,null,0
+Sweden,31,71,5,29,53,78,0
+Switzerland,34,68,70,58,74,66,0
+Syria,80,35,52,60,30,null,1
+Taiwan,58,17,45,69,93,49,0
+Tanzania,70,25,40,50,34,38,1
+Thailand,64,20,34,64,32,45,0
+Trinidad and Tobago,47,16,58,55,13,80,0
+Tunisia,70,40,40,75,null,null,1
+Turkey,66,37,45,85,46,49,0
+Ukraine,92,25,27,95,86,14,1
+United Arab Emirates,90,25,50,80,null,null,1
+United Kingdom,35,89,66,35,51,69,0
+United States,40,91,62,46,26,68,0
+Uruguay,61,36,38,98,26,53,0
+Venezuela,81,12,73,76,16,100,0
+Vietnam,70,20,40,30,57,35,0
+Zambia,60,35,40,50,30,42,1

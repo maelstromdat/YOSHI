@@ -1,0 +1,79 @@
+ctr,country,pdi,idv,mas,uai
+AFE,Africa East,64,27,41,52
+AFW,Africa West,77,20,46,54
+ARA,Arab countries,80,38,53,68
+ARG,Argentina,49,46,56,86
+AUL,Australia,38,90,61,51
+AUT,Austria,11,55,79,70
+BAN,Bangladesh,80,20,55,60
+BEL,Belgium,65,75,54,94
+BEF,Belgium French,67,72,60,93
+BEN,Belgium Netherl,61,78,43,97
+BRA,Brazil,69,38,49,76
+BUL,Bulgaria,70,30,40,85
+CAN,Canada,39,80,52,48
+CAF,Canada French,54,73,45,60
+CHL,Chile,63,23,28,86
+CHI,China,80,20,66,30
+COL,Colombia,67,13,64,80
+COS,Costa Rica,35,15,21,86
+CRO,Croatia,73,33,40,80
+CZE,Czech Rep,57,58,57,74
+DEN,Denmark,18,74,16,23
+ECA,Ecuador,78,8,63,67
+SAL,El Salvador,66,19,40,94
+EST,Estonia,40,60,30,60
+FIN,Finland,33,63,26,59
+FRA,France,68,71,43,86
+GER,Germany,35,67,66,65
+GBR,Great Britain,35,89,66,35
+GRE,Greece,60,35,57,100
+GUA,Guatemala,95,6,37,98
+HOK,Hong Kong,68,25,57,29
+HUN,Hungary,46,80,88,82
+IND,India,77,48,56,40
+IDO,Indonesia,78,14,46,48
+IRA,Iran,58,41,43,59
+IRE,Ireland,28,70,68,35
+ISR,Israel,13,54,47,81
+ITA,Italy,50,76,70,75
+JAM,Jamaica,45,39,68,13
+JPN,Japan,54,46,95,92
+KOR,Korea South,60,18,39,85
+LAT,Latvia,44,70,9,63
+LIT,Lithuania,42,60,19,65
+LUX,Luxembourg,40,60,50,70
+MAL,Malaysia,100,26,50,36
+MLT,Malta,56,59,47,96
+MEX,Mexico,81,30,69,82
+MOR,Morocco,70,46,53,68
+NET,Netherlands,38,80,14,53
+NZL,New Zealand,22,79,58,49
+NOR,Norway,31,69,8,50
+PAK,Pakistan,55,14,50,70
+PAN,Panama,95,11,44,86
+PER,Peru,64,16,42,87
+PHI,Philippines,94,32,64,44
+POL,Poland,68,60,64,93
+POR,Portugal,63,27,31,99
+ROM,Romania,90,30,42,90
+RUS,Russia,93,39,36,95
+SER,Serbia,86,25,43,92
+SIN,Singapore,74,20,48,8
+SLK,Slovak Rep,100,52,100,51
+SLV,Slovenia,71,27,19,88
+SAW,South Africa white,49,65,63,49
+SPA,Spain,57,51,42,86
+SUR,Suriname,85,47,37,92
+SWE,Sweden,31,71,5,29
+SWI,Switzerland,34,68,70,58
+SWF,Switzerland French,70,64,58,70
+SWG,Switzerland German,26,69,72,56
+TAI,Taiwan,58,17,45,69
+THA,Thailand,64,20,34,64
+TRI,Trinidad and Tobago,47,16,58,55
+TUR,Turkey,66,37,45,85
+USA,U.S.A.,40,91,62,46
+URU,Uruguay,61,36,38,98
+VEN,Venezuela,81,12,73,76
+VIE,Vietnam,70,20,40,30
